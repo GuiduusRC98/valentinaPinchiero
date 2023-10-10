@@ -11,7 +11,8 @@
           "../images/carteras/cartera_1_luna.jpeg",
           "../images/carteras/cartera_2_luna.jpeg",
           "../images/carteras/cartera_3_luna.jpeg"
-        ]
+        ],
+        "categoria": "carteras"
       },
       {
         "id": 2,
@@ -26,7 +27,8 @@
           "../images/carteras/cartera_celeste_3.jpeg",
           "../images/carteras/cartera_celeste_4.jpeg",
           "../images/carteras/cartera_celeste_5.jpeg"
-        ]
+        ],
+        "categoria": "carteras"
       },
       {
         "id": 3,
@@ -40,7 +42,8 @@
           "../images/carteras/cartera_lila_1.jpeg",
           "../images/carteras/cartera_lila_3.jpeg",
           "../images/carteras/cartera_lila_4.jpeg"
-        ]
+        ],
+        "categoria": "carteras"
       },
       {
         "id": 4,
@@ -54,7 +57,8 @@
           "../images/carteras/cartera_croco_1.jpeg",
           "../images/carteras/cartera_croco_3.jpeg",
           "../images/carteras/cartera_croco_4.jpeg"
-        ]
+        ],
+        "categoria": "carteras"
       },
       {
         "id": 5,
@@ -68,7 +72,8 @@
           "../images/carteras/cartera_allblack_1.jpeg",
           "../images/carteras/cartera_allblack_3.jpeg",
           "../images/carteras/cartera_allblack_4.jpeg"
-        ]
+        ],
+        "categoria": "carteras"
       },
       {
         "id": 6,
@@ -80,7 +85,8 @@
         "imagenes": [
           "../images/rinonera/chain_fucsia_1.jpeg",
           "../images/rinonera/chain_fucsia_2.jpeg"
-        ]
+        ],
+        "categoria": "rinoneras"
       },
       {
         "id": 7,
@@ -92,7 +98,8 @@
         "imagenes": [
           "../images/rinonera/chain_charol_1.jpeg",
           "../images/rinonera/chain_charol_2.jpeg"
-        ]
+        ],
+        "categoria": "rinoneras"
       },
       {
         "id": 8,
@@ -103,7 +110,8 @@
         "detalle": "rinonera de alta calidad",
         "imagenes": [
           "../images/rinonera/chain_negra_1.jpeg"
-        ]
+        ],
+        "categoria": "rinoneras"
       },
       {
         "id": 9,
@@ -115,7 +123,8 @@
         "imagenes": [
           "../images/rinonera/chain_charol_rosa_1.jpeg",
           "../images/rinonera/chain_charol_rosa_2.jpeg"
-        ]
+        ],
+        "categoria": "rinoneras"
       },
       {
         "id": 10,
@@ -127,7 +136,8 @@
         "imagenes": [
           "../images/rinonera/chain_tostada_1.jpeg",
           "../images/rinonera/chain_tostada_2.jpeg"
-        ]
+        ],
+        "categoria": "rinoneras"
       },
       {
         "id": 11,
@@ -141,7 +151,8 @@
           "../images/maquillaje/cherry_lime_1.jpeg",
           "../images/maquillaje/cherry_lime_3.jpeg",
           "../images/maquillaje/cherry_lime_4.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 12,
@@ -154,7 +165,8 @@
           "../images/maquillaje/coconut_2.jpeg",
           "../images/maquillaje/coconut_1.jpeg",
           "../images/maquillaje/coconut_3.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 13,
@@ -166,7 +178,8 @@
         "imagenes": [
           "../images/maquillaje/raspberry_2.jpeg",
           "../images/maquillaje/raspberry_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 14,
@@ -179,7 +192,8 @@
           "../images/maquillaje/raspberry_melon_2.jpeg",
           "../images/maquillaje/raspberry_melon_1.jpeg",
           "../images/maquillaje/raspberry_melon_3.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 15,
@@ -191,7 +205,8 @@
         "imagenes": [
           "../images/maquillaje/rosegold_2.jpeg",
           "../images/maquillaje/rosegold_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 16,
@@ -203,7 +218,8 @@
         "imagenes": [
           "../images/maquillaje/gold_2.jpeg",
           "../images/maquillaje/gold_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 17,
@@ -215,7 +231,8 @@
         "imagenes": [
           "../images/maquillaje/kiwiblush_2.jpeg",
           "../images/maquillaje/kiwiblush_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 18,
@@ -227,7 +244,8 @@
         "imagenes": [
           "../images/maquillaje/coconut_craze_2.jpeg",
           "../images/maquillaje/coconut_craze_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 19,
@@ -239,7 +257,8 @@
         "imagenes": [
           "../images/maquillaje/strawberryfizz_2.jpeg",
           "../images/maquillaje/strawberryfizz_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 20,
@@ -251,7 +270,8 @@
         "imagenes": [
           "../images/maquillaje/juicy_melon_2.jpeg",
           "../images/maquillaje/juicy_melon_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 21,
@@ -263,7 +283,8 @@
         "imagenes": [
           "../images/maquillaje/candy_baby_2.jpeg",
           "../images/maquillaje/candy_baby_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 22,
@@ -275,7 +296,8 @@
         "imagenes": [
           "../images/maquillaje/sugar_high_2.jpeg",
           "../images/maquillaje/sugar_high_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 23,
@@ -287,7 +309,8 @@
         "imagenes": [
           "../images/maquillaje/violet_2.jpeg",
           "../images/maquillaje/violet_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 24,
@@ -299,7 +322,8 @@
         "imagenes": [
           "../images/maquillaje/Brown_2.jpeg",
           "../images/maquillaje/Brown_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 25,
@@ -311,7 +335,8 @@
         "imagenes": [
           "../images/maquillaje/light_pink_glitter_2.jpeg",
           "../images/maquillaje/light_pink_glitter_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 26,
@@ -323,7 +348,8 @@
         "imagenes": [
           "../images/maquillaje/pink_glitter_2.jpeg",
           "../images/maquillaje/pink_glitter_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 27,
@@ -335,7 +361,8 @@
         "imagenes": [
           "../images/maquillaje/pink_2.jpeg",
           "../images/maquillaje/pink_1.jpeg"
-        ]
+        ],
+        "categoria": "maquillajes"
       },
       {
         "id": 28,
@@ -349,7 +376,8 @@
           "../images/bandolera/bandolera_isa_love_2.jpeg",
           "../images/bandolera/bandolera_isa_love_3.jpeg",
           "../images/bandolera/bandolera_isa_love_4.jpeg"
-        ]
+        ],
+        "categoria": "bandoleras"
       },
       {
         "id": 29,
@@ -361,7 +389,8 @@
         "imagenes": [
           "../images/bandolera/bandolera_isa_estrella_1.jpeg",
           "../images/bandolera/bandolera_isa_estrella_2.jpeg"
-        ]
+        ],
+        "categoria": "bandoleras"
       },
       {
         "id": 30,
@@ -374,7 +403,8 @@
           "../images/bandolera/bandolera_isa_estrella_blanca_1.jpeg",
           "../images/bandolera/bandolera_isa_estrella_blanca_2.jpeg",
           "../images/bandolera/bandolera_isa_estrella_blanca_3.jpeg"
-        ]
+        ],
+        "categoria": "bandoleras"
       }
     ]
   }

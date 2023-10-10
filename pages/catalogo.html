@@ -42,37 +42,36 @@
       </div> -->
     </header>
     <!-- ultimos productos -->
-    <section class="products" id="products">
-        <div class="filter-buttons">
-            <button class="filter-button" data-filter="categoria1">
-              <img src="../images/icon_cartera.jpeg" alt="">
-              <span class="filter-titulo">Carteras</span>
-            </button>
-            <button class="filter-button" data-filter="categoria2">
-              <img src="../images/icon_maquillaje.jpeg" alt="">
-              <span class="filter-titulo">Maquillajes</span>
-            </button>
-            <button class="filter-button" data-filter="categoria3">
-              <img src="../images/icon_rinonera.jpeg" alt="">
-              <span class="filter-titulo">Riñoneras</span>
-            </button>
-            <button class="filter-button" data-filter="categoria4">
-              <img src="../images/icon_bandoleras.jpeg" alt="">
-              <span class="filter-titulo">Bandoleras</span>
-            </button>
-          </div>
-          
-          
-      <div class="box-container" id="contenedor_productos">
+      <div class="filter-buttons">
+        <button class="filter-button" data-filter="carteras">
+          <img src="../images/icon_cartera.svg" alt="" />
+          <span class="filter-titulo">Carteras</span>
+        </button>
+        <button class="filter-button" data-filter="maquillajes">
+          <img src="../images/icon_maquillaje.svg" alt="" />
+          <span class="filter-titulo">Maquillajes</span>
+        </button>
+        <button class="filter-button" data-filter="rinoneras">
+          <img src="../images/icon_rinonera.svg" alt="" />
+          <span class="filter-titulo">Riñoneras</span>
+        </button>
+        <button class="filter-button" data-filter="bandoleras">
+          <img src="../images/icon_bandoleras.svg" alt="" />
+          <span class="filter-titulo">Bandoleras</span>
+        </button>
       </div>
-    </section>
+      <section class="products" id="products">
+        <div class="box-container" id="contenedor_productos">
+          <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+        </div>
+      </section>
     <div id="myModal" class="modal">
       <span class="close">×</span>
       <img id="modalImage" class="modal-content">
       <ul id="thumbnailList" class="thumbnails"></ul>
       <button id="prevBtn"></button>
       <button id="nextBtn"></button>
-  </div>
+    </div>
     <!--  -->
     <section class="footer">
       <div class="box-container">

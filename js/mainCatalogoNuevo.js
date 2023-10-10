@@ -1,5 +1,5 @@
 class Producto {
-    constructor(id, nombre, precio, descripcion, img, alt, descuento, rebaja, imagenes) {
+    constructor(id, nombre, precio, descripcion, img, alt, descuento, rebaja, imagenes, categoria) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
@@ -9,6 +9,7 @@ class Producto {
         this.descuento = descuento;
         this.rebaja = rebaja;
         this.imagenes = imagenes || [];
+        this.categoria = categoria;
     }
 
     descripcion_Producto() {
@@ -17,7 +18,7 @@ class Producto {
             rebajaHTML = `<span>    $${this.rebaja}</span>`;
         }
         return `
-        <div class="box">
+        <div class="box" data-categoria="${this.categoria}">
             <div class="image">
                 <div id="imageGallery${this.id}" class="carousel">
                     <img onclick="openModal(${this.id})" src="${this.img}" alt="${this.alt}" />
@@ -51,7 +52,7 @@ class ControladorDeProductos {
                 throw new Error('No se pudo cargar el archivo JSON');
             }
             const data = await resp.json();
-    
+
             if (data && data.productos && Array.isArray(data.productos)) {
                 this.listaDeProducto = data.productos.map(item => {
                     return new Producto(
@@ -63,7 +64,8 @@ class ControladorDeProductos {
                         item.descripcion,
                         0, // Por defecto, no hay descuento
                         0, // Por defecto, no hay rebaja
-                        item.imagenes
+                        item.imagenes,
+                        item.categoria
                     );
                 });
                 console.log(this.listaDeProducto);
@@ -74,7 +76,6 @@ class ControladorDeProductos {
             console.error('Error al cargar los productos:', error);
         }
     }
-    
 
     mostrarCatalogo() {
         let contenedor_productos = document.getElementById("contenedor_productos");
@@ -169,4 +170,39 @@ function closeModal() {
 const cp = new ControladorDeProductos();
 cp.cargarProductosDesdeJSON().then(() => {
     cp.mostrarCatalogo();
+});
+
+// Función para mostrar todos los productos
+function mostrarTodosLosProductos() {
+    const productos = document.querySelectorAll('.box');
+    productos.forEach(producto => {
+        producto.style.display = 'block';
+    });
+}
+
+// Función para filtrar productos por categoría
+function filtrarPorCategoria(categoria) {
+    const productos = document.querySelectorAll('.box');
+    productos.forEach(producto => {
+        const categoriasProducto = producto.getAttribute('data-categoria');
+        if (categoria === 'todos' || categoriasProducto.includes(categoria)) {
+            producto.style.display = 'block';
+        } else {
+            producto.style.display = 'none';
+        }
+    });
+}
+
+// Agregar clic a los botones de filtro
+document.querySelectorAll('.filter-button').forEach(button => {
+    button.addEventListener('click', () => {
+        const categoria = button.getAttribute('data-filter');
+        filtrarPorCategoria(categoria);
+    });
+});
+
+// Agregar un botón para mostrar todos los productos
+const mostrarTodosButton = document.getElementById('mostrarTodosButton');
+mostrarTodosButton.addEventListener('click', () => {
+    mostrarTodosLosProductos();
 });
