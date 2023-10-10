@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description"
+    content="Descubre la mejor selección de carteras y productos de maquillaje en Rosario, Argentina. Encuentra productos de alta calidad para realzar tu belleza y complementar tu estilo. ¡Explora nuestra tienda ahora!" />
+<meta name="keywords"
+    content="carteras, maquillaje, Rosario, Argentina, belleza, moda, productos de belleza, carteras de moda, accesorios de moda, compras en línea" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/icon_valu.png" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Inicio</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <input type="checkbox" name="" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
+      <a href="#" class="logo"
+        ><img src="images/logo_valu.png" alt="" width="100px" height="100px"
+      /></a>
+      <!-- <a href="#" class="logo">Valentina<span>.</span></a> -->
+      <nav class="navbar">
+        <a href="index.html">Incio</a>
+        <a href="./pages/carteras.html">Carteras</a>
+        <a href="./pages/rinoneras.html">Riñoneras</a>
+        <a href="./pages/bandoleras.html">Bandoleras</a>
+        <a href="./pages/maquillajes.html">Maquillaje importado</a>
+        <!--         <a href="./pages/sobremi">Sobre Mi</a> -->
+        <a href="./pages/contacto.html">Contacto</a>
+      </nav>
+
+      <!-- <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div> -->
+      <!--       <div class="container-busqueda">
+        <form class="nosubmit">
+          <input class="nosubmit" type="search" placeholder="Buscar..." />
+        </form>
+      </div> -->
+    </header>
+
+    <!-- home  -->
+    <section class="home" id="home">
+      <div class="content about-left">
+        <h3>Valentina Pinchiero</h3>
+        <span></span>
+        <p>
+          Holaa, bienvenida! Mi nombre es Valentina Pinchiero, y esta es MI
+          MARCA :) Esta marca inició para que puedas completar tus looks de una
+          forma ÚNICA! Todo está totalmente pensado y diseñado por mi... Además
+          hay GLOSSES IMPORTADOS, que te va a hacer lucir radiante en todo
+          momento...
+        </p>
+        <ul class="icon-me">
+          <li>
+            <a href="./pages/contacto.html"
+              ><i class="fa-sharp fa-solid fa-at"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/valii_09/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+        <a href="#products" class="btn">Ultimos Productos</a>
+      </div>
+      <div class="about-right">
+        <img
+          src="./images/carteras/cartera_2_luna.jpeg"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- Iconos -->
+    <!--   <section class="icons-container">
+    <div class="icons">
+      <img src="images/delivery.png" alt="" width="50px" height="50px" />
+      <div class="info">
+        <h3>Delivery Gratis</h3>
+        <span>en todas tus ordenes</span>
+      </div>
+    </div>
+
+    <div class="icons">
+      <img src="images/cambio.png" alt="" width="50px" height="50px" />
+      <div class="info">
+        <h3>10 dia de cambios</h3>
+        <span>te devolvemos el dinero</span>
+      </div>
+    </div>
+
+    <div class="icons">
+      <img src="images/ofertayregalos.png" alt="" width="50px" height="50px" />
+      <div class="info">
+        <h3>Oferta & Regalos</h3>
+        <span>en todas tus ordenes</span>
+      </div>
+    </div>
+
+    <div class="icons">
+      <img src="images/pagosseguro.png" alt="" width="50px" height="50px" />
+      <div class="info">
+        <h3>Pagos seguros</h3>
+        <span>Compras seguras</span>
+      </div>
+    </div>
+  </section> -->
+
+    <!-- ultimos productos -->
+    <section class="products" id="products">
+      <h1 class="heading">Ultimos <span>productos</span></h1>
+
+      <div class="box-container" id="contenedor_productos">
+      </div>
+    </section>
+    <div id="myModal" class="modal">
+      <span class="close">×</span>
+      <img id="modalImage" class="modal-content">
+      <ul id="thumbnailList" class="thumbnails"></ul>
+      <button id="prevBtn"></button>
+      <button id="nextBtn"></button>
+  </div>
+
+    <!-- contacto -->
+    <div class="container row">
+      <div class="form-container">
+        <section class="contact container" id="contact">
+          <h1 class="heading"><span>Contacta</span> conmigo</h1>
+
+          <div class="row">
+            <div class="form-container">
+              <form id="miFormulario">
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Nombre"
+                  class="box"
+                />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  class="box"
+                />
+                <input
+                  type="number"
+                  id="numero"
+                  name="numero"
+                  placeholder="Número de teléfono"
+                  class="box"
+                />
+                <textarea
+                  class="box"
+                  id="mensaje"
+                  name="mensaje"
+                  placeholder="Mensaje..."
+                ></textarea>
+                <input type="submit" value="Enviar mensaje" class="btn" />
+              </form>
+            </div>
+            <div class="image">
+              <img
+                src="./images/logo_valu_negro.png"
+                alt="Logo valentina pinchiero"
+              />
+            </div>
+          </div>
+        </section>
+        <script>
+          document
+            .getElementById("miFormulario")
+            .addEventListener("submit", function (e) {
+              e.preventDefault(); // Evita la recarga de la página
+
+              // Obtiene los datos del formulario
+              const nombre = document.getElementById("nombre").value;
+              const email = document.getElementById("email").value;
+              const numero = document.getElementById("numero").value;
+              const mensaje = document.getElementById("mensaje").value;
+
+              // Crea una URL con los datos del formulario
+              let url =
+                "mailto:vpinchiero@gmail.com?subject=Contacto&body=Nombre: " +
+                encodeURIComponent(nombre) +
+                "%0D%0ANumero de telefono: " +
+                encodeURIComponent(email) +
+                "%0D%0ACorreo Electrónico: " +
+                encodeURIComponent(email) +
+                "%0D%0AMensaje: " +
+                encodeURIComponent(mensaje);
+
+              // Abre la URL de correo electrónico
+              window.location.href = url;
+            });
+        </script>
+      </div>
+    </div>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Links rapidos</h3>
+          <a href="#">Inicio</a>
+          <a href="./pages/carteras.html">Carteras</a>
+          <a href="./pages/rinoneras.html">Riñoneras</a>
+          <a href="./pages/bandoleras.html">Bandoleras</a>
+          <a href="./pages/maquillajes.html">Maquillajes importados</a>
+          <!-- <a href="sobremi.html">Sobre mi</a> -->
+          <a href="./pages/contacto.html">Contacto</a>
+        </div>
+
+        <div class="box">
+          <h3>Contacto</h3>
+          <a href="https://www.instagram.com/valii_09/"
+            ><i class="fab fa-instagram"></i> Instagram</a
+          >
+          <a href="#" id="correo"
+            ><i class="fa-sharp fa-solid fa-at"></i> <span class="__cf_email__" data-cfemail="e294928b8c818a8b87908da2858f838b8ecc818d8f">[email&#160;protected]</span></a
+          >
+          <a href="#">Rosario, Santa Fe</a>
+        </div>
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+          // Obtén el elemento de correo electrónico por su ID
+          var correoElement = document.getElementById("correo");
+
+          // Agrega un evento de clic al elemento de correo electrónico
+          correoElement.addEventListener("click", function () {
+            // Crea un elemento de entrada de texto temporal
+            var inputElement = document.createElement("input");
+            inputElement.value = correoElement.textContent;
+
+            // Agrega el elemento de entrada de texto al documento
+            document.body.appendChild(inputElement);
+
+            // Selecciona el texto en el elemento de entrada de texto
+            inputElement.select();
+            inputElement.setSelectionRange(0, 99999); // Para dispositivos móviles
+
+            // Copia el texto al portapapeles
+            document.execCommand("copy");
+
+            // Elimina el elemento de entrada de texto temporal
+            document.body.removeChild(inputElement);
+
+            // Puedes agregar un mensaje de confirmación si lo deseas
+            alert("Correo electrónico copiado: " + inputElement.value);
+          });
+        </script>
+      </div>
+
+      <div class="credit">
+        Creado por <span>Guido Pezzotta</span> | todos los derechos reservados
+      </div>
+    </section>
+
+    <script src="./js/mainCatalogo.js"></script>
+  </body>
+</html>

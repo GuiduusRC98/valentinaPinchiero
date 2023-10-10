@@ -1,0 +1,381 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Cartera LUNA negra con cadena plateada gruesa",
+        "precio": 9500,
+        "descripcion": "Tamaño 17x25cm De Material Sintético Con Cierre YKK Importado",
+        "imagen": "../images/carteras/cartera_1_luna.jpeg",
+        "detalle": "cartera de modelo de alta calidad",
+        "imagenes": [
+          "../images/carteras/cartera_1_luna.jpeg",
+          "../images/carteras/cartera_2_luna.jpeg",
+          "../images/carteras/cartera_3_luna.jpeg"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Cartera LUNA turquesa y fucsia",
+        "precio": 8500,
+        "descripcion": "Tamaño 17x25cm De Material Sintético Con Cierre YKK Importado",
+        "imagen": "../images/carteras/cartera_celeste_1.jpeg",
+        "detalle": "cartera de modelo de alta calidad",
+        "imagenes": [
+          "../images/carteras/cartera_celeste_1.jpeg",
+          "../images/carteras/cartera_celeste_2.jpeg",
+          "../images/carteras/cartera_celeste_3.jpeg",
+          "../images/carteras/cartera_celeste_4.jpeg",
+          "../images/carteras/cartera_celeste_5.jpeg"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Cartera LUNA lila con rosita",
+        "precio": 8500,
+        "descripcion": "Tamaño 17x25cm De Material Sintético Con Cierre YKK Importado",
+        "imagen": "../images/carteras/cartera_lila_2.jpeg",
+        "detalle": "cartera lila con rosa de alta calidad",
+        "imagenes": [
+          "../images/carteras/cartera_lila_2.jpeg",
+          "../images/carteras/cartera_lila_1.jpeg",
+          "../images/carteras/cartera_lila_3.jpeg",
+          "../images/carteras/cartera_lila_4.jpeg"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Cartera LUNA Croco Negra",
+        "precio": 8500,
+        "descripcion": "Tamaño 17x25cm De Material Sintético Con Cierre YKK Importado",
+        "imagen": "../images/carteras/cartera_croco_2.jpeg",
+        "detalle": "cartera croco de alta calidad",
+        "imagenes": [
+          "../images/carteras/cartera_croco_2.jpeg",
+          "../images/carteras/cartera_croco_1.jpeg",
+          "../images/carteras/cartera_croco_3.jpeg",
+          "../images/carteras/cartera_croco_4.jpeg"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Cartera LUNA Croco Negra",
+        "precio": 8500,
+        "descripcion": "Tamaño 17x25cm De Material Sintético Con Cierre YKK Importado",
+        "imagen": "../images/carteras/cartera_allblack_2.jpeg",
+        "detalle": "cartera negra de alta calidad",
+        "imagenes": [
+          "../images/carteras/cartera_allblack_2.jpeg",
+          "../images/carteras/cartera_allblack_1.jpeg",
+          "../images/carteras/cartera_allblack_3.jpeg",
+          "../images/carteras/cartera_allblack_4.jpeg"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "CHAIN COLLECTION tono fucsia",
+        "precio": 4500,
+        "descripcion": "Cadena de acrílico fucsia y dije de corazón",
+        "imagen": "../images/rinonera/chain_fucsia_1.jpeg",
+        "detalle": "rinonera de alta calidad",
+        "imagenes": [
+          "../images/rinonera/chain_fucsia_1.jpeg",
+          "../images/rinonera/chain_fucsia_2.jpeg"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "CHAIN COLLECTION riñonera charol negra",
+        "precio": 4000,
+        "descripcion": "Cadena doble negra opaca y dije 'ROCK'",
+        "imagen": "../images/rinonera/chain_charol_1.jpeg",
+        "detalle": "rinonera de alta calidad",
+        "imagenes": [
+          "../images/rinonera/chain_charol_1.jpeg",
+          "../images/rinonera/chain_charol_2.jpeg"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "CHAIN COLLECTION riñonera negra",
+        "precio": 4000,
+        "descripcion": "Cadena simple plateada",
+        "imagen": "../images/rinonera/chain_negra_1.jpeg",
+        "detalle": "rinonera de alta calidad",
+        "imagenes": [
+          "../images/rinonera/chain_negra_1.jpeg"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "CHAIN COLLECTION riñonera charol rosa",
+        "precio": 4900,
+        "descripcion": "Cadena acrílica gruesa charol rosa",
+        "imagen": "../images/rinonera/chain_charol_rosa_1.jpeg",
+        "detalle": "rinonera de alta calidad",
+        "imagenes": [
+          "../images/rinonera/chain_charol_rosa_1.jpeg",
+          "../images/rinonera/chain_charol_rosa_2.jpeg"
+        ]
+      },
+      {
+        "id": 10,
+        "nombre": "CHAIN COLLECTION riñonera tostada clara",
+        "precio": 4900,
+        "descripcion": "Cadena dorada y fina",
+        "imagen": "../images/rinonera/chain_tostada_1.jpeg",
+        "detalle": "rinonera de alta calidad",
+        "imagenes": [
+          "../images/rinonera/chain_tostada_1.jpeg",
+          "../images/rinonera/chain_tostada_2.jpeg"
+        ]
+      },
+      {
+        "id": 11,
+        "nombre": "Cherry Lime",
+        "precio": 1600,
+        "descripcion": "Fruit Fetish Victoria's Spirit",
+        "imagen": "../images/maquillaje/cherry_lime_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/cherry_lime_2.jpeg",
+          "../images/maquillaje/cherry_lime_1.jpeg",
+          "../images/maquillaje/cherry_lime_3.jpeg",
+          "../images/maquillaje/cherry_lime_4.jpeg"
+        ]
+      },
+      {
+        "id": 12,
+        "nombre": "Coconut",
+        "precio": 1600,
+        "descripcion": "Fruit Fetish Victoria's Spirit",
+        "imagen": "../images/maquillaje/coconut_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/coconut_2.jpeg",
+          "../images/maquillaje/coconut_1.jpeg",
+          "../images/maquillaje/coconut_3.jpeg"
+        ]
+      },
+      {
+        "id": 13,
+        "nombre": "Raspberry",
+        "precio": 1600,
+        "descripcion": "Fruit Fetish Victoria's Spirit",
+        "imagen": "../images/maquillaje/raspberry_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/raspberry_2.jpeg",
+          "../images/maquillaje/raspberry_1.jpeg"
+        ]
+      },
+      {
+        "id": 14,
+        "nombre": "Strawberry and Melon",
+        "precio": 1600,
+        "descripcion": "Fruit Fetish Victoria's Spirit",
+        "imagen": "../images/maquillaje/raspberry_melon_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/raspberry_melon_2.jpeg",
+          "../images/maquillaje/raspberry_melon_1.jpeg",
+          "../images/maquillaje/raspberry_melon_3.jpeg"
+        ]
+      },
+      {
+        "id": 15,
+        "nombre": "Rose Gold 24k",
+        "precio": 1500,
+        "descripcion": "Victoria's Spirit",
+        "imagen": "../images/maquillaje/rosegold_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/rosegold_2.jpeg",
+          "../images/maquillaje/rosegold_1.jpeg"
+        ]
+      },
+      {
+        "id": 16,
+        "nombre": "Gold 24k",
+        "precio": 1500,
+        "descripcion": "Victoria's Spirit",
+        "imagen": "../images/maquillaje/gold_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/gold_2.jpeg",
+          "../images/maquillaje/gold_1.jpeg"
+        ]
+      },
+      {
+        "id": 17,
+        "nombre": "Kiwi Blush",
+        "precio": 1600,
+        "descripcion": "Gloss Victoria's Spirit",
+        "imagen": "../images/maquillaje/kiwiblush_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/kiwiblush_2.jpeg",
+          "../images/maquillaje/kiwiblush_1.jpeg"
+        ]
+      },
+      {
+        "id": 18,
+        "nombre": "Coconut",
+        "precio": 1600,
+        "descripcion": "Gloss Victoria's Spirit",
+        "imagen": "../images/maquillaje/coconut_craze_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/coconut_craze_2.jpeg",
+          "../images/maquillaje/coconut_craze_1.jpeg"
+        ]
+      },
+      {
+        "id": 19,
+        "nombre": "Strawberry fizz",
+        "precio": 1600,
+        "descripcion": "Gloss Victoria's Spirit",
+        "imagen": "../images/maquillaje/strawberryfizz_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/strawberryfizz_2.jpeg",
+          "../images/maquillaje/strawberryfizz_1.jpeg"
+        ]
+      },
+      {
+        "id": 20,
+        "nombre": "Juicy Melon",
+        "precio": 1600,
+        "descripcion": "Gloss Victoria's Spirit",
+        "imagen": "../images/maquillaje/juicy_melon_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/juicy_melon_2.jpeg",
+          "../images/maquillaje/juicy_melon_1.jpeg"
+        ]
+      },
+      {
+        "id": 21,
+        "nombre": "Candy Baby",
+        "precio": 1600,
+        "descripcion": "Gloss Victoria's Spirit",
+        "imagen": "../images/maquillaje/candy_baby_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/candy_baby_2.jpeg",
+          "../images/maquillaje/candy_baby_1.jpeg"
+        ]
+      },
+      {
+        "id": 22,
+        "nombre": "Sugar High",
+        "precio": 1600,
+        "descripcion": "Gloss Victoria's Spirit",
+        "imagen": "../images/maquillaje/sugar_high_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/sugar_high_2.jpeg",
+          "../images/maquillaje/sugar_high_1.jpeg"
+        ]
+      },
+      {
+        "id": 23,
+        "nombre": "Violet",
+        "precio": 2000,
+        "descripcion": "Fat Oil Lip Drip",
+        "imagen": "../images/maquillaje/violet_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/violet_2.jpeg",
+          "../images/maquillaje/violet_1.jpeg"
+        ]
+      },
+      {
+        "id": 24,
+        "nombre": "Brown",
+        "precio": 2000,
+        "descripcion": "Fat Oil Lip Drip",
+        "imagen": "../images/maquillaje/Brown_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/Brown_2.jpeg",
+          "../images/maquillaje/Brown_1.jpeg"
+        ]
+      },
+      {
+        "id": 25,
+        "nombre": "Light Pink Glitter",
+        "precio": 2000,
+        "descripcion": "Fat Oil Lip Drip",
+        "imagen": "../images/maquillaje/light_pink_glitter_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/light_pink_glitter_2.jpeg",
+          "../images/maquillaje/light_pink_glitter_1.jpeg"
+        ]
+      },
+      {
+        "id": 26,
+        "nombre": "Pink Glitter",
+        "precio": 2000,
+        "descripcion": "Fat Oil Lip Drip",
+        "imagen": "../images/maquillaje/pink_glitter_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/pink_glitter_2.jpeg",
+          "../images/maquillaje/pink_glitter_1.jpeg"
+        ]
+      },
+      {
+        "id": 27,
+        "nombre": "Pink",
+        "precio": 2000,
+        "descripcion": "Fat Oil Lip Drip",
+        "imagen": "../images/maquillaje/pink_2.jpeg",
+        "detalle": "maquillaje de alta calidad",
+        "imagenes": [
+          "../images/maquillaje/pink_2.jpeg",
+          "../images/maquillaje/pink_1.jpeg"
+        ]
+      },
+      {
+        "id": 28,
+        "nombre": "BANDOLERA COLECCION ISA LOVE",
+        "precio": 9000,
+        "descripcion": "Cuerina sintética CROCO, Cierres reforzados, Correa Regulable",
+        "imagen": "../images/bandolera/bandolera_isa_love_1.jpeg",
+        "detalle": "bandolera de alta calidad",
+        "imagenes": [
+          "../images/bandolera/bandolera_isa_love_1.jpeg",
+          "../images/bandolera/bandolera_isa_love_2.jpeg",
+          "../images/bandolera/bandolera_isa_love_3.jpeg",
+          "../images/bandolera/bandolera_isa_love_4.jpeg"
+        ]
+      },
+      {
+        "id": 29,
+        "nombre": "BANDOLERA ESTRELLA COLECCION ISA",
+        "precio": 9000,
+        "descripcion": "Cuerina sintética CROCO, Cierres reforzados, Correa Regulable",
+        "imagen": "../images/bandolera/bandolera_isa_estrella_1.jpeg",
+        "detalle": "bandolera de alta calidad",
+        "imagenes": [
+          "../images/bandolera/bandolera_isa_estrella_1.jpeg",
+          "../images/bandolera/bandolera_isa_estrella_2.jpeg"
+        ]
+      },
+      {
+        "id": 30,
+        "nombre": "BANDOLERA ESTRELLA BLANCA COLECCION ISA",
+        "precio": 9000,
+        "descripcion": "Cuerina sintética CROCO, Cierres reforzados, Correa Regulable",
+        "imagen": "../images/bandolera/bandolera_isa_estrella_blanca_1.jpeg",
+        "detalle": "bandolera de alta calidad",
+        "imagenes": [
+          "../images/bandolera/bandolera_isa_estrella_blanca_1.jpeg",
+          "../images/bandolera/bandolera_isa_estrella_blanca_2.jpeg",
+          "../images/bandolera/bandolera_isa_estrella_blanca_3.jpeg"
+        ]
+      }
+    ]
+  }
+  
