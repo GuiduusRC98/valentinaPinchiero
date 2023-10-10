@@ -609,7 +609,6 @@ input.nosubmit {
   border: none;
   margin-top: 10px;
   border-radius: 50%;
-  color: #333;
   font-size: 24px;
   cursor: pointer;
   transition: background-color 0.3s ease;
