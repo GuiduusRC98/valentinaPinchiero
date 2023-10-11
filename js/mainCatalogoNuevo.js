@@ -185,13 +185,14 @@ function filtrarPorCategoria(categoria) {
     const productos = document.querySelectorAll('.box');
     productos.forEach(producto => {
         const categoriasProducto = producto.getAttribute('data-categoria');
-        if (categoria === 'todos' || categoriasProducto.includes(categoria)) {
+        if (categoriasProducto && (categoria === 'todos' || categoriasProducto.includes(categoria))) {
             producto.style.display = 'block';
         } else {
             producto.style.display = 'none';
         }
     });
 }
+
 
 // Agregar clic a los botones de filtro
 document.querySelectorAll('.filter-button').forEach(button => {
