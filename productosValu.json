@@ -81,7 +81,7 @@
         "precio": 4500,
         "descripcion": "Cadena de acrílico fucsia y dije de corazón",
         "imagen": "../images/rinonera/chain_fucsia_1.jpeg",
-        "detalle": "rinonera de alta calidad",
+        "detalle": "riñonera de alta calidad",
         "imagenes": [
           "../images/rinonera/chain_fucsia_1.jpeg",
           "../images/rinonera/chain_fucsia_2.jpeg"
@@ -94,7 +94,7 @@
         "precio": 4000,
         "descripcion": "Cadena doble negra opaca y dije 'ROCK'",
         "imagen": "../images/rinonera/chain_charol_1.jpeg",
-        "detalle": "rinonera de alta calidad",
+        "detalle": "riñonera de alta calidad",
         "imagenes": [
           "../images/rinonera/chain_charol_1.jpeg",
           "../images/rinonera/chain_charol_2.jpeg"
@@ -107,7 +107,7 @@
         "precio": 4000,
         "descripcion": "Cadena simple plateada",
         "imagen": "../images/rinonera/chain_negra_1.jpeg",
-        "detalle": "rinonera de alta calidad",
+        "detalle": "riñonera de alta calidad",
         "imagenes": [
           "../images/rinonera/chain_negra_1.jpeg"
         ],
@@ -119,7 +119,7 @@
         "precio": 4900,
         "descripcion": "Cadena acrílica gruesa charol rosa",
         "imagen": "../images/rinonera/chain_charol_rosa_1.jpeg",
-        "detalle": "rinonera de alta calidad",
+        "detalle": "riñonera de alta calidad",
         "imagenes": [
           "../images/rinonera/chain_charol_rosa_1.jpeg",
           "../images/rinonera/chain_charol_rosa_2.jpeg"
@@ -132,7 +132,7 @@
         "precio": 4900,
         "descripcion": "Cadena dorada y fina",
         "imagen": "../images/rinonera/chain_tostada_1.jpeg",
-        "detalle": "rinonera de alta calidad",
+        "detalle": "riñonera de alta calidad",
         "imagenes": [
           "../images/rinonera/chain_tostada_1.jpeg",
           "../images/rinonera/chain_tostada_2.jpeg"
@@ -366,7 +366,7 @@
       },
       {
         "id": 28,
-        "nombre": "BANDOLERA COLECCION ISA LOVE",
+        "nombre": "BANDOLERA LOVE - CÁPSULA ISA",
         "precio": 9000,
         "descripcion": "Cuerina sintética CROCO, Cierres reforzados, Correa Regulable",
         "imagen": "../images/bandolera/bandolera_isa_love_1.jpeg",
@@ -382,7 +382,7 @@
       },
       {
         "id": 29,
-        "nombre": "BANDOLERA ESTRELLA COLECCION ISA",
+        "nombre": "BANDOLERA ESTRELLA - CÁPSULA ISA",
         "precio": 9000,
         "descripcion": "Cuerina sintética CROCO, Cierres reforzados, Correa Regulable",
         "imagen": "../images/bandolera/bandolera_isa_estrella_1.jpeg",
@@ -396,7 +396,7 @@
       },
       {
         "id": 30,
-        "nombre": "BANDOLERA ESTRELLA BLANCA COLECCION ISA",
+        "nombre": "BANDOLERA ESTRELLA BLANCA - CÁPSULA ISA",
         "precio": 9000,
         "descripcion": "Cuerina sintética CROCO, Cierres reforzados, Correa Regulable",
         "imagen": "../images/bandolera/bandolera_isa_estrella_blanca_1.jpeg",
@@ -408,6 +408,58 @@
         ],
         "categoria": "bandoleras",
         "fecha_creacion": "2023-10-11"
+      },
+      {
+        "id": 31,
+        "nombre": "MAXI RIÑONERA NEGRA CROCO VAQUITA - CÁPSULA ISA",
+        "precio": 8400,
+        "descripcion": "Bolsillo externo, Correa Regulable, alto18 cm,Ancho 27 cm",
+        "imagen": "../images/rinonera/rinonera_isa_vaquita_1.jpeg",
+        "detalle": "riñonera de alta calidad",
+        "imagenes": [
+          "../images/rinonera/rinonera_isa_vaquita_1.jpeg",
+          "../images/rinonera/rinonera_isa_vaquita_2.jpeg"
+        ],
+        "categoria": "rinoneras"
+      },
+      {
+        "id": 32,
+        "nombre": "MAXI RIÑONERA NEGRA CROCO TOTAL BLACK - CÁPSULA ISA",
+        "precio": 8400,
+        "descripcion": "Bolsillo externo, Correa Regulable, alto18 cm,Ancho 27 cm",
+        "imagen": "../images/rinonera/rinonera_isa_allblack_1.jpeg",
+        "detalle": "riñonera de alta calidad",
+        "imagenes": [
+          "../images/rinonera/rinonera_isa_allblack_1.jpeg",
+          "../images/rinonera/rinonera_isa_allblack_2.jpeg"
+        ],
+        "categoria": "rinoneras"
+      },
+      {
+        "id": 33,
+        "nombre": "MAXI RIÑONERA NEGRA CROCO MILITAR - CÁPSULA ISA",
+        "precio": 8400,
+        "descripcion": "Bolsillo externo, Correa Regulable, alto18 cm,Ancho 27 cm",
+        "imagen": "../images/rinonera/rinonera_isa_militar_1.jpeg",
+        "detalle": "riñonera de alta calidad",
+        "imagenes": [
+          "../images/rinonera/rinonera_isa_militar_1.jpeg",
+          "../images/rinonera/rinonera_isa_militar_2.jpeg"
+        ],
+        "categoria": "rinoneras"
+      },
+      {
+        "id": 34,
+        "nombre": "BANDOLERA NEGRA CROCO CORAZÓN - CÁPSULA ISA",
+        "precio": 9000,
+        "descripcion": "Cuerina sintética CROCO, Cierres reforzados, Correa Regulable",
+        "imagen": "../images/bandolera/bandolera_isa_corazon_1.jpeg",
+        "detalle": "bandolera de alta calidad",
+        "imagenes": [
+          "../images/bandolera/bandolera_isa_corazon_1.jpeg",
+          "../images/bandolera/bandolera_isa_corazon_2.jpeg"
+        ],
+        "categoria": "bandoleras"
       }
     ]
   }
