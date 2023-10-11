@@ -377,7 +377,8 @@
           "../images/bandolera/bandolera_isa_love_3.jpeg",
           "../images/bandolera/bandolera_isa_love_4.jpeg"
         ],
-        "categoria": "bandoleras"
+        "categoria": "bandoleras",
+        "fecha_creacion": "2023-10-11"
       },
       {
         "id": 29,
@@ -390,7 +391,8 @@
           "../images/bandolera/bandolera_isa_estrella_1.jpeg",
           "../images/bandolera/bandolera_isa_estrella_2.jpeg"
         ],
-        "categoria": "bandoleras"
+        "categoria": "bandoleras",
+        "fecha_creacion": "2023-10-11"
       },
       {
         "id": 30,
@@ -404,7 +406,8 @@
           "../images/bandolera/bandolera_isa_estrella_blanca_2.jpeg",
           "../images/bandolera/bandolera_isa_estrella_blanca_3.jpeg"
         ],
-        "categoria": "bandoleras"
+        "categoria": "bandoleras",
+        "fecha_creacion": "2023-10-11"
       }
     ]
   }

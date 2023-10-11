@@ -1,5 +1,5 @@
 class Producto {
-    constructor(id, nombre, precio, descripcion, img, alt, descuento, rebaja, imagenes, categoria) {
+    constructor(id, nombre, precio, descripcion, img, alt, descuento, rebaja, imagenes, categoria, fechaCreacion) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
@@ -10,6 +10,7 @@ class Producto {
         this.rebaja = rebaja;
         this.imagenes = imagenes || [];
         this.categoria = categoria;
+        this.fechaCreacion = fechaCreacion; // Añadir propiedad fechaCreacion
     }
 
     descripcion_Producto() {
@@ -65,7 +66,8 @@ class ControladorDeProductos {
                         0, // Por defecto, no hay descuento
                         0, // Por defecto, no hay rebaja
                         item.imagenes,
-                        item.categoria
+                        item.categoria,
+                        new Date() // Asignar una fecha de creación
                     );
                 });
                 console.log(this.listaDeProducto);
@@ -169,6 +171,7 @@ function closeModal() {
 
 const cp = new ControladorDeProductos();
 cp.cargarProductosDesdeJSON().then(() => {
+    cp.listaDeProducto.sort((a, b) => b.fechaCreacion - a.fechaCreacion);
     cp.mostrarCatalogo();
 });
 
@@ -206,7 +209,6 @@ function filtrarPorCategoria(categoria) {
     });
 }
 
-
 // Agregar clic a los botones de filtro
 document.querySelectorAll('.filter-button').forEach(button => {
     button.addEventListener('click', () => {
@@ -214,4 +216,3 @@ document.querySelectorAll('.filter-button').forEach(button => {
         filtrarPorCategoria(categoria);
     });
 });
-
