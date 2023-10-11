@@ -630,6 +630,10 @@ button {
   padding-top: 20px;
   font-weight: 500;
 }
+
+.show-filter-button {
+  display: none;
+}
 /* contacto */
 
 .contact .row {
@@ -759,10 +763,16 @@ button {
 
 /* Media Query para pantallas más pequeñas */
 @media screen and (max-width: 768px) {
+  .show-filter-button {
+    display: block;
+    background-color: var(--pink);
+    border-radius: 5px;
+  }
   .filter-titulo {
     padding: 7px;
   }
   .filter-buttons {
+    display: none;
     margin-left: 120px;
     grid-template-columns: repeat(2, 1fr);
   }
