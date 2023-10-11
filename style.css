@@ -768,9 +768,8 @@ button {
     padding: 7px;
   }
   .filter-buttons {
-    display: none;
     margin-left: 120px;
-    grid-template-columns: repeat(2, 1fr);
+    margin-top: 200px;
   }
   .products .box-container {
     grid-template-columns: 1fr; /* Una sola columna */
