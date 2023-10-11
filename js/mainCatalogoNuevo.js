@@ -183,12 +183,25 @@ function mostrarTodosLosProductos() {
 // Función para filtrar productos por categoría
 function filtrarPorCategoria(categoria) {
     const productos = document.querySelectorAll('.box');
+    const productosFiltrados = [];
+
     productos.forEach(producto => {
         const categoriasProducto = producto.getAttribute('data-categoria');
         if (categoriasProducto && (categoria === 'todos' || categoriasProducto.includes(categoria))) {
-            producto.style.display = 'block';
-        } else {
+            productosFiltrados.push(producto);
+        }
+    });
+
+    const contenedor_productos = document.getElementById("contenedor_productos");
+    productosFiltrados.forEach(producto => {
+        contenedor_productos.prepend(producto);
+    });
+
+    productos.forEach(producto => {
+        if (!productosFiltrados.includes(producto)) {
             producto.style.display = 'none';
+        } else {
+            producto.style.display = 'block';
         }
     });
 }
