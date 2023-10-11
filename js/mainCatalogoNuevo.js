@@ -215,21 +215,3 @@ document.querySelectorAll('.filter-button').forEach(button => {
     });
 });
 
-// Agregar un botón para mostrar todos los productos
-const mostrarTodosButton = document.getElementById('mostrarTodosButton');
-mostrarTodosButton.addEventListener('click', () => {
-    mostrarTodosLosProductos();
-});
-
-// Obtener el botón "Mostrar filtro" y los botones de filtro
-const showFilterButton = document.getElementById("show-filter-button");
-const filterButtons = document.querySelector(".filter-buttons");
-
-// Agregar un controlador de evento al botón "Mostrar filtro"
-showFilterButton.addEventListener("click", function() {
-  if (filterButtons.style.display === "none" || filterButtons.style.display === "") {
-    filterButtons.style.display = "block";
-  } else {
-    filterButtons.style.display = "none";
-  }
-});

@@ -763,18 +763,7 @@ button {
 
 /* Media Query para pantallas más pequeñas */
 @media screen and (max-width: 768px) {
-  .show-filter-button {
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color: var(--pink);
-    border-radius: 5px;
-    margin-top: 300px;
-    padding: 10px;
-    display: grid;
-    place-items: center;
 
-  }
   .filter-titulo {
     padding: 7px;
   }
